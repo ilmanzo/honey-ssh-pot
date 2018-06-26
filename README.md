@@ -4,11 +4,11 @@ a fake ssh server that works as a honeypot, logging credentials of the login att
 Curious about who and how attempts ssh login to your home server ? Me too... 
 So I wrote a very simple ssh honeypot, just to collect interesting info about the kind guys who knocks my door :) 
 
-warning: this is safe, but don't run the service (well, ANY service) as root user. Even better if you can run it as a dedicate unprivileged user.
+warning: this is safe, but don't run the service (well, ANY service) as root user. Even better if you can run it as a dedicate unprivileged user. 
 
 This program is only for didactic use and not intended for deployment in a production network environment.
 
-If you want to have it exposed on the public internet, so you must remap port 22 of your wan router to the internal server port ( 2222 by default)... 
+If you want to have it exposed on the public internet, you must map port 22 of your wan router to the internal server port ( 2222 by default)... 
 **Do it at your risk!**
 
 
